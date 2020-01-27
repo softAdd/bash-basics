@@ -44,10 +44,12 @@ myOs=$(uname -a)
 `echo $myOs`
 
 Пример простой работы с переменными:<br>
-`num1=50`<br>
-`num2=45`<br>
-`sum=$((num1+num2))`<br>
-`echo "$num1 + $num2 = $sum"`
+```bash
+num1=50
+num2=45
+sum=$((num1+num2))
+echo "$num1 + $num2 = $sum"
+```
 
 ## Параметры скриптов
 
