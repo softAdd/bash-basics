@@ -34,7 +34,7 @@ myOs=`uname -a`
 ```
 или<br>
 ```bash
-`myOs=$(uname -a)`
+myOs=$(uname -a)
 ```
 
 Использование переменной в тексте:<br>
